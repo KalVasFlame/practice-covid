@@ -1,0 +1,20 @@
+.contagion {
+  text-align: center;
+  background-image: url(/img/contagion/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: 9.5% 97%;
+}
+.contagion-title {
+  font-family: "Red Hat Display";
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 1.24;
+  color: $title;
+}
+
+.contagion-text {
+  font-size: 18px;
+  line-height: 2.15;
+  text-transform: capitalize;
+  margin-bottom: 110px;
+}

@@ -1,0 +1,36 @@
+.contagion-list {
+  display: flex;
+
+  & .contagion-item + .contagion-item {
+    margin-left: 30px;
+  }
+}
+
+.contagion-item {
+  background: $white;
+  box-shadow: 0px 5px 80px rgba(0, 0, 0, 0.08);
+  border-bottom: 6px solid $accent;
+  border-radius: 0px 0px 10px 10px;
+  width: 460px;
+}
+
+.contagion-img img {
+  width: 270px;
+  height: 250px;
+  margin: 65px auto 60px;
+}
+
+.contagion-item-title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.47;
+  text-transform: capitalize;
+  color: $title;
+}
+
+.contagion-item-text {
+  margin: 0 auto 78px;
+  width: 355px;
+  line-height: 1.85;
+  text-transform: capitalize;
+}

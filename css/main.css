@@ -152,7 +152,7 @@ li {
 .hero {
   padding-top: 215px;
   padding-bottom: 215px;
-  background-image: url(/img/hero/hero-bg.jpg);
+  background-image: url(./img/hero/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: right center;
 }
@@ -192,7 +192,7 @@ li {
 .overview {
   padding-top: 250px;
   padding-bottom: 130px;
-  background-image: url(/img/overview/overview.jpg);
+  background-image: url(./img/overview/overview.jpg);
   background-repeat: no-repeat;
 }
 
